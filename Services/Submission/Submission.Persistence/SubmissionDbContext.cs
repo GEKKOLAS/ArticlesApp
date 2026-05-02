@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Memory;
+﻿using Fluent.Infrastructure.FluentModel;
+using Microsoft.Extensions.Caching.Memory;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 

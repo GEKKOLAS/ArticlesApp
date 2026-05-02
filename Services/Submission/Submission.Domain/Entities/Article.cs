@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Articles.Abstractions.Enums;
 
 namespace Submission.Domain.Entities;
 
