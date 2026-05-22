@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blocks.AspNetCore", "Buildi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blocks.Core", "BuildingBlocks\ClassLibrary1\Blocks.Core.csproj", "{FB487930-DC48-44A4-B492-2B79015C88C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blocks.Domain", "BuildingBlocks\Blocks.Domain\Blocks.Domain.csproj", "{316BE92D-36B7-43B0-B938-959F68E7F56A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{FB487930-DC48-44A4-B492-2B79015C88C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB487930-DC48-44A4-B492-2B79015C88C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB487930-DC48-44A4-B492-2B79015C88C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316BE92D-36B7-43B0-B938-959F68E7F56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316BE92D-36B7-43B0-B938-959F68E7F56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316BE92D-36B7-43B0-B938-959F68E7F56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316BE92D-36B7-43B0-B938-959F68E7F56A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +97,7 @@ Global
 		{FCAB70EA-130B-4F47-A4EF-7829D40A23D2} = {A0A25E68-D0CE-47EB-9B0D-861DE0D82DC6}
 		{DA73AB02-013F-4E75-ABFC-9F85ADCF2150} = {A0A25E68-D0CE-47EB-9B0D-861DE0D82DC6}
 		{FB487930-DC48-44A4-B492-2B79015C88C5} = {A0A25E68-D0CE-47EB-9B0D-861DE0D82DC6}
+		{316BE92D-36B7-43B0-B938-959F68E7F56A} = {A0A25E68-D0CE-47EB-9B0D-861DE0D82DC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2CD262B-CDFE-47C1-84FF-37734CA07B95}
