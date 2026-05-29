@@ -1,4 +1,5 @@
 ﻿using Articles.Abstractions;
+using Blocks.MediatR;
 using FluentValidation;
 
 namespace Submission.Application.Features.Shared;

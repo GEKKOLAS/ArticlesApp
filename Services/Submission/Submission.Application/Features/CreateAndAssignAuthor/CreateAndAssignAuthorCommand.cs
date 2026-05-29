@@ -1,4 +1,6 @@
-﻿namespace Submission.Application.Features.CreateAndAssignAuthor;
+﻿using Blocks.FluentValidation;
+
+namespace Submission.Application.Features.CreateAndAssignAuthor;
 
 public record CreateAndAssignAuthorCommand(int? PersonId, string? FirstName, string? LastName, string? Email, Honorific? Honorific, string? Affiliation, bool IsCorrespondingAuthor, HashSet<ContributionArea> ContributionAreas)
     : ArticleCommand

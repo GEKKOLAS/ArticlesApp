@@ -3,6 +3,7 @@ using Auth.Grpc;
 using Blocks.Exceptions;
 using Journals.Grpc;
 using MediatR;
+using Submission.Persistence.Repositories;
 using System;
 
 namespace Submission.Application.Features.ApproveArticle;
